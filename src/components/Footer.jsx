@@ -1,28 +1,33 @@
+import { FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-900 text-gray-300">
+        <footer className="bg-white text-gray-600">
             <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-between md:flex-row">
                 <div className="mb-4 md:mb-0">
-                    <span className="text-xl font-bold">My Portfolio</span>
+                    <h2 className="text-3xl font-bold text-gray-900">Daniel Benitez</h2>
+                    <p className="mt-2 text-sm text-gray-600">Areguá, Paraguay.</p>
                 </div>
                 <div className="flex items-center">
-                    <div className="mr-6">
-                        <a href="#" className="text-gray-300 hover:text-white">Home</a>
-                    </div>
-                    <div className="mr-6">
-                        <a href="#" className="text-gray-300 hover:text-white">About</a>
-                    </div>
-                    <div className="mr-6">
-                        <a href="#" className="text-gray-300 hover:text-white">Portfolio</a>
-                    </div>
-                    <div>
-                        <a href="#" className="text-gray-300 hover:text-white">Contact</a>
-                    </div>
+                    <a href="https://twitter.com/c0mplexfps" target="_blank" rel="noopener noreferrer" className="mr-6 text-gray-600 hover:text-gray-900 transition-colors duration-300 ease-in-out flex items-center">
+                        <span className="mr-2"><FaTwitter /></span>
+                        Twitter
+                    </a>
+                    <a href="https://www.linkedin.com/in/danielbenitezpy/" target="_blank" rel="noopener noreferrer" className="mr-6 text-gray-600 hover:text-gray-900 transition-colors duration-300 ease-in-out flex items-center">
+                        <span className="mr-2"><FaLinkedin /></span>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/dabedev" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition-colors duration-300 ease-in-out flex items-center">
+                        <span className="mr-2"><FaGithub /></span>
+                        GitHub
+                    </a>
                 </div>
             </div>
+            <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 flex justify-between items-center text-sm text-gray-500">
+                <span>&copy; 2023 Daniel Benitez. All rights reserved.</span>
+                <span>Built with React and TailwindCSS</span>
+            </div>
         </footer>
-
     )
 }
 

@@ -1,12 +1,9 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import useToggle from '../hooks/useToggle';
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
-
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
-    };
+    const [isOpen, setIsOpen] = useToggle();
 
     return (
         <header className="right-0 bg-white shadow-lg">
@@ -15,7 +12,7 @@ const Header = () => {
                 <div className="md:hidden">
                     <button
                         className="flex items-center focus:outline-none"
-                        onClick={toggleMenu}
+                        onClick={setIsOpen}
                     >
                         {isOpen ? (
                             <FaTimes className="w-6 h-6 text-gray-700" />
