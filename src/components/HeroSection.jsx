@@ -5,7 +5,7 @@ import profilePic from "../assets/logos/dabe.png";
 
 const HeroSection = () => {
     return (
-        <section className="bg-gray-100 py-20">
+        <section className="bg-gray-100 py-20" id="hero">
             <div className="container mx-auto flex flex-col md:flex-row justify-center items-center">
                 <div className="w-80 h-80 relative overflow-hidden rounded-full mb-8 md:mb-0 md:mr-12">
                     <img src={profilePic} alt="Profile" className="rounded-full w-full h-full object-cover" />
