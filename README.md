@@ -24,7 +24,7 @@ npm install
 ```
 
 3. Configure your portfolio:
-   - Open the `src/config.js` file and update the necessary information such as your name, skills, projects, etc. [NOT YET]
+   - <del>Open the src/config.js file and update the necessary information such as your name, skills, projects, etc.</del> [NOT YET]
    - Customize the portfolio components in the `src/` directory to match your design and content preferences.
 
 ## Development Mode
@@ -73,7 +73,7 @@ This command will guide you through the deployment process, and once completed, 
 
 ## TODO
 
-- [] Make the `src/config.js` file with texts, information, projects, skills, and more to populate the website.
+* [ ] Make the `src/config.js` file with texts, information, projects, skills, and more to populate the website.
 
 ## About the Portfolio
 
