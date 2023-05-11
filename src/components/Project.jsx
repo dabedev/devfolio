@@ -3,6 +3,7 @@ import useToggle from "../hooks/useToggle";
 
 import LangHmap from "../dict/langHmap";
 import { SiGithub } from "react-icons/si";
+import { FiExternalLink } from "react-icons/fi";
 
 const Project = (props) => {
     const [show, setShow] = useToggle();
@@ -20,12 +21,12 @@ const Project = (props) => {
                         {Object.keys(props.technologies).map((area, index1) => {
                             return (
                                 <div key={`area-${index1}`}>
-                                    <p className="text-gray-700 font-bold mt-2">{area}</p>
+                                    <p className="text-gray-700 max-auto font-bold mt-2">{area}</p>
                                     {props.technologies[area].map((key, index2) => {
                                         const { icon: Icon, color, url } = LangHmap[key];
                                         return (
                                             <a href={url} target="_blank" rel="noopener noreferrer" key={`technology-${index1}-${index2}`}>
-                                                <div className="items-center mr-12 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
+                                                <div className="items-center mr-12 transition mx-auto my-auto duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg">
                                                     <Icon className={`${color} text-2xl sm:text-3xl md:text-4xl`} />
                                                 </div>
                                             </a>
@@ -37,11 +38,14 @@ const Project = (props) => {
                     </div>
                 </div>
                 <div className="flex justify-center mt-8">
-                    <a href={props.projectUrl} className="bg-black hover:bg-gray-900 text-white font-bold py-3 px-10 rounded-full inline-block mr-4 transition-all duration-300">View</a>
+                    <a href={props.projectUrl} className="flex items-center bg-black hover:bg-gray-900 text-white font-bold py-3 px-10 rounded-full inline-block mr-4 transition-all duration-300">
+                        View
+                        <FiExternalLink size={20} className="text-white ml-2" />
+                    </a>
                     {props.githubUrl ? (
-                        <a href={props.githubUrl} target="_blank" rel="noopener noreferrer"
-                            className="bg-black hover:bg-gray-900 text-white font-bold py-3 px-10 rounded-full inline-block transition-all duration-300">
-                            <SiGithub size={20} className="text-white mr-4" />
+                        <a href={props.githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center bg-black hover:bg-gray-900 text-white font-bold py-3 px-10 rounded-full inline-block transition-all duration-300">
+                            <SiGithub size={20} className="text-white mr-2" />
+                            GitHub
                         </a>
                     ) : (<></>)}
                 </div>

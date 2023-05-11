@@ -38,8 +38,8 @@ const Home = () => {
             </section>
             <section className="bg-white py-20" id="contact">
                 <h2 className="text-4xl font-bold mb-12 text-center">Contact me</h2>
-                <div className="flex justify-center">
-                    <div className="w-1/4 mx-5 px-4 sm:px-6 lg:px-8">
+                <div className="flex flex-wrap justify-center">
+                    <div className="w-full sm:w-1/2 lg:w-1/4 mx-5 px-4 sm:px-6 lg:px-8 mb-8">
                         <div className="bg-gray-50 shadow-md rounded-lg overflow-hidden">
                             <div className="flex items-center px-6 py-4">
                                 <FiMail className="text-gray-500 mr-4" size={24} />
@@ -51,7 +51,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="w-1/4 mx-5 px-4 sm:px-6 lg:px-8">
+                    <div className="w-full sm:w-1/2 lg:w-1/4 mx-5 px-4 sm:px-6 lg:px-8 mb-8">
                         <div className="bg-gray-50 shadow-md rounded-lg overflow-hidden">
                             <div className="flex items-center px-6 py-4">
                                 <FiMapPin className="text-gray-500 mr-4" size={24} />
@@ -65,7 +65,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }

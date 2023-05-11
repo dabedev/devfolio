@@ -9,9 +9,8 @@ const Projects = () => {
     return (
         <>
             <Project projectTitle="Renondera"
-                projectDescription="Renondera is a project born with the ambition of changing the landscape of digital businesses. 
-            Through this project, we aim to innovate the way online entrepreneurs manage their administrative or marketing operations, 
-            offering a system that allows them to develop their activities in an automated and simple way."
+                projectDescription="Renondera is a project aiming to revolutionize digital businesses by offering an innovative and automated
+                system for managing administrative and marketing operations."
                 projectUrl="https://www.renondera.com" projectImage={RenonderaImage}
                 technologies={
                     {
@@ -21,7 +20,7 @@ const Projects = () => {
                     }
                 } />
             <Project projectTitle="vMasters"
-                projectDescription="This platform helps you improve your skills quickly with a unique approach and provides easy accessibility to its resources. 
+                projectDescription="This platform helps you improve your skills quickly with a unique approach and provides easy accessibility to its resources.
                 It also has a friendly and supportive community to interact with."
                 projectUrl="https://vmasters.dabe.lat" projectImage={VmastersImage}
                 technologies={
