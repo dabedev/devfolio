@@ -82,8 +82,6 @@ The full stack web developer portfolio showcases my skills, projects, and experi
 - **About Me**: A brief introduction highlighting my background, experience, and skills.
 - **Projects**: A collection of my notable projects, including descriptions, technologies used, and links to live demos or repositories.
 - **Skills**: An overview of my technical skills, including programming languages, frameworks, databases, and other relevant technologies.
-- **Experience**: Details about my work experience, including roles, responsibilities, and achievements.
-- **Education**: Information about my educational background, degrees earned, and any relevant certifications.
 
 Feel free to customize the portfolio to reflect your own experience, skills, and projects.
 
