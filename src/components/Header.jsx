@@ -23,9 +23,9 @@ const Header = () => {
                 </div>
                 <nav className="hidden md:flex md:flex-row">
                     <a href="#hero" className="mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-md transition duration-300">Home</a>
-                    <a href="#about-me" className="mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-md transition duration-300">About</a>
+                    <a href="#about" className="mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-md transition duration-300">About</a>
                     <a href="#projects" className="mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-md transition duration-300">Projects</a>
-                    <a href="#hero" className="mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-md transition duration-300">Contact</a>
+                    <a href="#contact" className="mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-100 rounded-md transition duration-300">Contact</a>
                 </nav>
             </div>
             <div
@@ -35,13 +35,13 @@ const Header = () => {
                 <a href="#hero" className="block mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition duration-300">
                     Home
                 </a>
-                <a href="#about-me" className="block mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition duration-300">
+                <a href="#about" className="block mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition duration-300">
                     About
                 </a>
                 <a href="#projects" className="block mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition duration-300">
                     Projects
                 </a>
-                <a href="#hero" className="block mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition duration-300">
+                <a href="#contact" className="block mx-3 px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition duration-300">
                     Contact
                 </a>
             </div>

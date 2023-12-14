@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             <HeroSection />
-            <section className="bg-white py-20" id="about-me">
+            <section className="bg-white py-20" id="about">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
                     <div className="md:w-2/3 text-center md:text-left">
                         <h2 className="text-4xl font-bold mb-8 md:mb-4 text-gray-800">About Me</h2>
